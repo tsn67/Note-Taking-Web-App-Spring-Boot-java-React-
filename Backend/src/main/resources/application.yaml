@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Backend
+  datasource:
+    url: your_database_url  mine: jdbc:mysql://localhost:3306/note-store?createDatabaseIfNotExist=true
+    username: your_username (default: root)
+    password: your_database_password
+  jpa:
+    show-sql: true # show sql query send to the database
